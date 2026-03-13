@@ -29,7 +29,7 @@ Snappy compression is fast and good for standard tables. For wide tables ZSTD of
 
 ----
 
-> ls -lh *.parquet
+```ls -lh *.parquet```
 
 **Original File**
 
