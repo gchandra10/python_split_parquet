@@ -24,12 +24,20 @@ DuckDB split/verify time: 2.30 seconds
 File move time: 0.00 seconds
 Total execution time: 2.31 seconds
 
-**ls -lh *.parquet**
+> ls -lh *.parquet
+
+**Original File**
 
 -rw-r--r--@ 1 staff   **482M** Mar 12 20:53 fhvhv_tripdata_2026_01.parquet
 
+**After Split**
+
 -rw-r--r--  1 staff    26M Mar 12 22:40 split_fhvhv_tripdata_2026_01_0.parquet
+
 -rw-r--r--  1 staff   138M Mar 12 22:40 split_fhvhv_tripdata_2026_01_1.parquet
+
 -rw-r--r--  1 staff   126M Mar 12 22:40 split_fhvhv_tripdata_2026_01_2.parquet
+
 -rw-r--r--  1 staff   130M Mar 12 22:40 split_fhvhv_tripdata_2026_01_3.parquet
+
 -rw-r--r--  1 staff    77M Mar 12 22:40 split_fhvhv_tripdata_2026_01_4.parquet
