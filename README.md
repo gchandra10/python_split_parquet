@@ -14,6 +14,11 @@ Setting to default block size.
 
 Snappy compression is fast and good for standard tables. For wide tables ZSTD offers better compression. As we are reducing the file size to 128MB CPU usage will not be high.
 
+----
+
+[Download data from NYC Taxi Website](https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv_tripdata_2026-01.parquet)
+
+----
 
 ## Sample results
 
